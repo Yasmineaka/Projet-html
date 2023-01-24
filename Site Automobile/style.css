@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+background-color: black;
+color: rgb(158, 69, 173);
+}
+
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 2,6rem;
+}
+li {
+    font-size: 2rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-left: 40rem;
+
+}
+
+#logo {
+     flex: 1 1 40rem;
+}
+
+/* première image*/
+.page {
+    min-height: 90vh;
+    background: url("VOITURE.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page h2 {
+    padding: 1rem;
+}
+h1 {
+    font-size: 20pt;
+}
+h3 {
+    padding: 0,5rem;
+}
+.bouton1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.bouton2 {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
