@@ -48,6 +48,8 @@ nav ul {
 
 #logo {
      flex: 1 1 40rem;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: white;
 }
 
 /* première image*/
@@ -65,20 +67,47 @@ nav ul {
 
 .page h2 {
     padding: 1rem;
+    font-size: bold ;
+    font-size: 900%;
 }
 h1 {
     font-size: 20pt;
 }
 h3 {
     padding: 0,5rem;
+    font-size: 400%;
 }
+h4 {
+    font-size: 350%;
+}
+
+h5 {
+    bottom: 5px;
+    right: 5px;
+}
+
 .bouton1 {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    background-color: rgb(183, 179, 184);
+    border-radius: 20px;
+   width: 170px;
+   height: 70px;
+   font-size: 300%;
+
 }
 .bouton2 {
     position: absolute;
     top: 160px;
     left: 10px;
+    background-color: rgb(158, 69, 184);
+    border-radius: 10px;
+    width: 170px;
+    height: 70px;
+    font-size: 300%;
+    color: white;
+}
+span {
+    color: rgb(158, 69, 173);
 }
