@@ -55,7 +55,7 @@ nav ul {
 /* première image*/
 .page {
     min-height: 90vh;
-    background: url("VOITURE.webp");
+    background: url("../image/VOITURE.webp");
     background-size: cover;
     background-position: center;
     color: white;
@@ -63,6 +63,7 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 263px 263px;
 }
 
 .page h2 {
@@ -82,14 +83,13 @@ h4 {
 }
 
 h5 {
-    bottom: 5px;
-    right: 5px;
+    
 }
 
 .bouton1 {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0px;
+    right: 200px;
     background-color: rgb(183, 179, 184);
     border-radius: 20px;
    width: 170px;
@@ -110,4 +110,21 @@ h5 {
 }
 span {
     color: rgb(158, 69, 173);
+}
+h6 {
+font-size: 6rem;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*SERVICES*/
+
+.Services h6 {
+    text-align: center;
+}
+image {
+    align-items: center;
+
 }
